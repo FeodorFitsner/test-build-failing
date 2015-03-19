@@ -13,9 +13,13 @@ module.exports = function(grunt) {
               }
           }
       },
+
+
   });
 
+
   grunt.loadNpmTasks('grunt-bower-install-simple');
+
   grunt.registerTask('default', ['bower-install-simple']);
 
 };
