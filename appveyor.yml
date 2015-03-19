@@ -15,3 +15,5 @@ install:
   - cmd: npm install -g grunt-cli  1> nul
   - cmd: npm install
   - cmd: grunt
+
+build: off
