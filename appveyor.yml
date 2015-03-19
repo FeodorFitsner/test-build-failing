@@ -1,0 +1,17 @@
+shallow_clone: true
+
+# version format
+version: 1.0.{build}
+
+# Fix line endings in Windows. (runs before repo cloning)
+init:
+  - git config --global core.autocrlf input
+
+cache:
+  - Tulpep.Signtul.Website\bower_components -> **\bower.json
+
+
+install:
+  - cmd: npm install -g grunt-cli  1> nul
+  - cmd: npm install
+  - cmd: grunt
