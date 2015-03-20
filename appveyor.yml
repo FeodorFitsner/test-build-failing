@@ -9,8 +9,8 @@ init:
 
 cache:
   - packages -> **\packages.config
-  - Tulpep.Signtul.Website\bower_components -> **\bower.json
-  - Tulpep.Signtul.Website\node_modules -> **\package.json
+  - Tulpep.Signtul.Website\bower_components -> Tulpep.Signtul.Website\bower.json
+  - Tulpep.Signtul.Website\node_modules -> Tulpep.Signtul.Website\package.json
 
 configuration: Release
 platform: Any CPU
