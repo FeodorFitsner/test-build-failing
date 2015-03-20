@@ -13,9 +13,7 @@ cache:
   - Tulpep.Signtul.Website\node_modules -> **\package.json
 
 configuration: Release
-platform:
-  - x86
-  - Any CPU
+platform: Any CPU
 
 install:
   - cmd: Tulpep.Signtul.Website\Grunt-Bat.cmd
